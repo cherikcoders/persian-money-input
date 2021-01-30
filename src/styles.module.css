@@ -1,0 +1,34 @@
+.shMoney{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.shMoney .shMoney-input{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  align-items: center;
+}
+
+.shMoney .shMoney-input .shMoney-arrow{
+  display: flex;
+  flex-direction: column;
+  background-color: #c7c7c7;
+  font-size: 10px;
+}
+
+.shMoney .shMoney-input a{
+  cursor: pointer;
+}
+
+.shMoney .shMoney-input input{
+  border: none;
+}
+
+.shMoney .shMoney-input .currency-label{
+  padding: 6px;
+  height: 115%;
+  background: #c7c7c7;
+}
